@@ -14,7 +14,7 @@ print("🤖 Multimodal RAG Chatbot")
 
 # Initialize LLM
 llm_model = GeminiMultimodal(
-    model="gpt-4o-mini",
+    model="gemini-1.5-flash",
     temperature=0.5,
     dotenv_path="myenv/.env"
 )
@@ -81,4 +81,5 @@ def add_file(file_path):
         global conditional_chain
         conditional_chain = Chain_Setup(retriever, prompt, llm, parser)
         print("📂 Knowledge base updated with new documents!")
+
 """
