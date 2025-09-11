@@ -6,7 +6,7 @@ import os
 
 
 class GeminiMultimodal:
-    def __init__(self, model="gpt-4o-mini", temperature=0, dotenv_path="myenv/.env"):
+    def __init__(self, model="gemini-1.5-flash", temperature=0, dotenv_path="myenv/.env"):
         load_dotenv(dotenv_path=dotenv_path)
         
         self.llm = ChatGoogleGenerativeAI(
@@ -40,3 +40,4 @@ class GeminiMultimodal:
 
         response = self.llm.invoke([message])
         return response.content
+
