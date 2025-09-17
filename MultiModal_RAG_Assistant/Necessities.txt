@@ -1,6 +1,0 @@
-1.Import Image and it gives me explanation
-2.From Local Knowledge Base it gives me Answers When Asked Questions
-3.The Prompt sets the llm as a assistant
-4.uses PyPdfLoader,imageloader and text Loader  
-5.Add a tool that lets u access the web to retrieve information(optional)
-6.Understands OCR and Image Captioning
