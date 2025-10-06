@@ -1,0 +1,8 @@
+streamlit
+python-dotenv
+requests
+deepgram-sdk
+langchain
+langchain-google-genai
+streamlit-mic-recorder
+pydub
