@@ -1,0 +1,5 @@
+Multimodal RAG Assistant
+
+A repository demonstrating a multimodal Retrieval-Augmented Generation (RAG) assistant using Gemini 2.5 Flash, CLIP, Chroma, and PyMuPDF loader. 
+It can read and process information from PDFs, images, and text using PyTesseract OCR, enabling intelligent question-answering across multiple data types.
+The assistant combines retrieval and generation for accurate, context-aware responses from diverse sources.
